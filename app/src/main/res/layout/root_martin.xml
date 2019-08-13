@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   월넛펙은 이제 족제비들의 영토가 되어 마우스가드들조차 살아나오기 힘든 곳이 되었습니다. 그에겐 안타깝지만 이 의뢰는 거절해야겠네요."
+        android:textSize="15sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   마틴을 설득해야 합니다."
+        android:textSize="20sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:padding="10sp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text="마틴: "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/m_dice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="150dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="27sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintStart_toEndOf="@+id/text3"
+        app:layout_constraintRight_toLeftOf="@+id/text3"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   순찰대의 주사위를 굴려주세요. 마틴보다 숫자가 높으면 의뢰를 거절합니다."
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+    <TextView
+        android:id="@+id/dice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="150dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="27sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="@+id/textButton1"
+        app:layout_constraintRight_toLeftOf="@+id/text4"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+    <TextView
+        android:id="@+id/textButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text="주사위 굴리기"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+
+</android.support.constraint.ConstraintLayout>

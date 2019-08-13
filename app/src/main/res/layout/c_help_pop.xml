@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtText"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="[순찰대장]"
+        android:maxLines="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/sub1"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="독립적으로 판단할 수 있고 다른 쥐들을 지도할 수 있음을 증명한 순찰대원. "
+        android:maxLines="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtText2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="[순찰대원]"
+        android:maxLines="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/sub2"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="복잡하거나 단독으로 수행해야 하는 임무를 맡는 노련한 마우스가드."
+        android:maxLines="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtText3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="[정규대원]"
+        android:maxLines="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/sub3"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="마우스가드의 손발."
+        android:maxLines="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtText4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="[말랑발 대원]"
+        android:maxLines="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/sub4"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="막 들어온 신입."
+        android:maxLines="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/blank"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOK"
+            android:text="알겠어요"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

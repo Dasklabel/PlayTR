@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   다인: 무슨 일이십니까?"
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   다인은 그가 도움이 필요하다는 것을 감지해냅니다. 작은 목소리로 자신의 이름을 '로레타'라고 소개한 쥐는 한참을 망설이다 용건을 말합니다."
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   일자리를 구하기 위해 다른 도시인 다크워터로 이주한 그의 연인이, 로레타가 그 곳으로 합류해도 좋을지를 올 봄까지 알려주기로 했으나 소식이 없어 직접 가보겠다는 것이었습니다."
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   이 곳 길프레지에는 타지로 향하는 상단이나 배가 가을에나 들어오기 때문에 로레타는 당장 내일 아침에 출발할 것입니다. 다크워터까지는 혼자 걸어 가겠지요."
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+
+    <TextView
+        android:id="@+id/textButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text="다음"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+</android.support.constraint.ConstraintLayout>

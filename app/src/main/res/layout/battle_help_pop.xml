@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text1"
+            android:text="전투는 어떻게 하죠?"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="53sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtText"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="야생동물이나 적대적인 상대를 만나면 전투 상태에 들어갑니다."
+        android:maxLines="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtText2"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="먼저 주사위를 굴려 숫자가 높은 쪽이 주도권을 가져갑니다."
+        android:maxLines="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtText3"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:lineSpacingMultiplier="1.3"
+        android:text="이후로 번갈아 주사위를 굴리며 상대의 주도권을 먼저 0으로 만드는 쪽이 승리합니다."
+        android:maxLines="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/blank"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mOK"
+            android:text="알겠어요"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

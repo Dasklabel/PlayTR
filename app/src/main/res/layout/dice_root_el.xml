@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   순찰대는 배를 만들어 건너보기로 했습니다. 튼튼한 나무들이 많은 곳이네요. 손만 잘 따라준다면 멋진 배를 만들 수 있을 것 같습니다."
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:text="   다인과 쿠엔틴, 바론 그리고 로빈은 서로의 힘을 합치기로 합니다. 바론과 로빈은 나무를 찾기로 했고, 다인은 앞으로의 날씨를, 쿠엔틴은 혹시 야생동물이 올까 경계를 서기로 합니다."
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#000000"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text="   배를 만들기 위해서는 목수(2 이상), 전사(1 이상), 일꾼(2 이상) 판정이 필요합니다. 판정 굴려 주세요."
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/carp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="90dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="27sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+    <TextView
+        android:id="@+id/warr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="27sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carp" />
+
+    <TextView
+        android:id="@+id/work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="27sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/warr" />
+
+    <TextView
+        android:id="@+id/textButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text="주사위 굴리기"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:scale_base_height="2000"
+        app:scale_base_width="1080">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:scale_height="805"
+            app:scale_left="30"
+            app:scale_top="140"
+            app:scale_width="402"
+            app:srcCompat="@drawable/baron" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.3"
+            android:text="바론"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            app:scale_left="660"
+            app:scale_top="10"
+            app:scale_width="210"
+            app:scale_height="130"/>
+
+        <TableLayout
+            android:id="@+id/table1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_width="600"
+            app:scale_left="460"
+            app:scale_top="150"
+            app:scale_height="660" >
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="생년(나이): 1130(22)"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="고향: 엘모스"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="털 색: 갈색"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="계급: 정규 대원"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="망토 색: 황금색"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-------------------------------------------"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="부모: 트위스트우드 부부"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="지도: 목수 페리스"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="스승: 가빈"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="적수: 폴(정규 대원)"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="친구: 산적 터크"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-------------------------------------------"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/table2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_width="600"
+            app:scale_left="460"
+            app:scale_top="810"
+            app:scale_height="200">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="본능(쥐): 4"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="자원: 3"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="의지: 2"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:text="인맥: 2"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="건강: 5"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/table3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_width="1030"
+            app:scale_left="30"
+            app:scale_top="1100"
+            app:scale_height="560">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="신념: 나는 마우스가드의 이름을 드높이겠어."
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="3"
+                    android:text="목표: 나는 이번 임무에서 동료 누구도 다치지 않게 하겠어."
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="습관: 순찰대장이 원하는 바를 미리 예상합니다.."
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="3"
+                    android:text="기술: 전사 4, 흥정꾼 2, 정찰대원 2, 길잡이 3, 모험가 2, 목수 4, 사냥꾼 3, 모략가 2"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="지식: 통치자-지식"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="특성: 다정함(1), 경계심(1), 인심 좋음(1)"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="장비: 미늘창, 조각도"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택"
+            app:scale_textsize="50"
+            app:scale_width="230"
+            app:scale_left="270"
+            app:scale_top="1700"
+            app:scale_height="130"/>
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            app:scale_textsize="50"
+            app:scale_width="230"
+            app:scale_left="600"
+            app:scale_top="1700"
+            app:scale_height="130"/>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

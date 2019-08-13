@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text="모험할 4마리의 마우스가드를 선택해 주세요.
+(순찰대장을 반드시 한 마리 포함해야 합니다.)"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/captain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="순찰대장 ▶"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+
+    <TextView
+        android:id="@+id/kenzie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="켄지"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/captain"
+        app:layout_constraintTop_toTopOf="@+id/captain" />
+
+    <TextView
+        android:id="@+id/domic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="도미니카"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/kenzie"
+        app:layout_constraintTop_toTopOf="@+id/kenzie" />
+
+    <TextView
+        android:id="@+id/patrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="순찰대원 ▶"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kenzie" />
+
+    <TextView
+        android:id="@+id/saxon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="색슨"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/patrol"
+        app:layout_constraintTop_toTopOf="@+id/patrol" />
+
+    <TextView
+        android:id="@+id/sadie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="새디"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/saxon"
+        app:layout_constraintTop_toTopOf="@+id/saxon" />
+
+    <TextView
+        android:id="@+id/dain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="다인"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/sadie"
+        app:layout_constraintTop_toTopOf="@+id/sadie" />
+
+    <TextView
+        android:id="@+id/quentin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="쿠엔틴"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/dain"
+        app:layout_constraintTop_toTopOf="@+id/dain" />
+
+
+    <TextView
+        android:id="@+id/regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="정규대원 ▶"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saxon" />
+
+    <TextView
+        android:id="@+id/lieam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="리암"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/regular"
+        app:layout_constraintTop_toTopOf="@+id/regular" />
+
+    <TextView
+        android:id="@+id/baron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="바론"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/lieam"
+        app:layout_constraintTop_toTopOf="@+id/lieam" />
+
+    <TextView
+        android:id="@+id/natha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="나다니엘"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/baron"
+        app:layout_constraintTop_toTopOf="@+id/baron" />
+
+    <TextView
+        android:id="@+id/pow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="말랑발대원 ▶"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/natha" />
+
+    <TextView
+        android:id="@+id/robin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="로빈"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/pow"
+        app:layout_constraintTop_toTopOf="@+id/pow" />
+
+    <TextView
+        android:id="@+id/sloan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="1"
+        android:text="슬론"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@+id/robin"
+        app:layout_constraintTop_toTopOf="@+id/robin" />
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text="선택 완료"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sloan" />
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="30"
+        android:text="계급 설명 보기"
+        android:textColor="#5D5D5D"
+        android:textSize="16sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ok"
+        android:onClick="mOK"/>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:text="   험난했던 겨울이 지나고 봄이 찾아왔습니다. 록헤이븐의 모두가 봄의 임무를 수행하기 위해 바쁘게 움직입니다.
+그웬돌린이 다인, 쿠엔틴, 바론, 그리고 로빈을 부릅니다."
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:text="   그웬돌린: 잘 와주었네. 이 우편물들을 엘모스와 스프러스턱, 길프레지에 나눠주었으면 좋겠어.
+날씨가 좋으니 어서 출발하는 게 좋을 것 같군."
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:maxLines="30"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:lineSpacingMultiplier="1.3"
+        android:text="   쿠엔틴은 그웬돌린에게서 우편물이 든 가방을 받아 들었습니다. 록헤이븐을 벗어난 마우스가드는 먼저 엘모스로 향합니다.
+변덕스러운 봄이지만 아직까지 하늘은 맑습니다. 다만, 얼마 전에 내린 비로 곳곳이 진흙탕이네요."
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"/>
+
+    <TextView
+        android:id="@+id/textButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="312dp"
+        android:layout_marginLeft="312dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="150dp"
+        android:padding="10dp"
+        android:text="다음"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+
+</android.support.constraint.ConstraintLayout>

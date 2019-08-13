@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:scale_base_height="2000"
+        app:scale_base_width="1080">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:scale_height="805"
+            app:scale_left="30"
+            app:scale_top="140"
+            app:scale_width="402"
+            app:srcCompat="@drawable/kenzie" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.3"
+            android:text="켄지"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            app:scale_left="660"
+            app:scale_top="10"
+            app:scale_width="210"
+            app:scale_height="130"/>
+
+        <TableLayout
+            android:id="@+id/table1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_width="600"
+            app:scale_left="460"
+            app:scale_top="150"
+            app:scale_height="660" >
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="생년(나이): 1121(31)"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="고향: 윌로우루트"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="털 색: 회색"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="계급: 순찰대장"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="망토 색: 군청색"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-------------------------------------------"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="부모: 알프리드 &amp; 로렐"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="지도: 록헤이븐의 보조 무기공 페브론"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="스승: 오델(사망)"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="적수: 서기 케이틀린"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="친구: 이야기꾼 재스퍼"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-------------------------------------------"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/table2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_width="600"
+            app:scale_left="460"
+            app:scale_top="810"
+            app:scale_height="200">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="본능(쥐): 5"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="자원: 5"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="의지: 5"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:text="인맥: 4"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="건강: 4"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/table3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_width="1030"
+            app:scale_left="30"
+            app:scale_top="1100"
+            app:scale_height="560">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="신념: 무엇과 싸울지 묻기보다, 무엇을 위해 싸우는지 물어라."
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="3"
+                    android:text="목표: 엘모스에서 스프러스턱, 길프레지까지 순찰대가 무사히 도착하게 하겠어."
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="습관: 문제가 생기면 항상 색슨에게 상담한다."
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:maxLines="3"
+                    android:text="기술: 전사 3, 사냥꾼 3, 교관 2, 동물학쥐 2, 협상가 5,
+길잡이 3, 정찰대원 3, 모험가 5, 기상 관측가 3, 대장장이 3"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="지식: 길-지식, 오리-지식, 경호-지식"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="특성: 평온함(1), 키다리(1), 대장(1)"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="장비: 지팡이, 지도"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택"
+            app:scale_textsize="50"
+            app:scale_width="230"
+            app:scale_left="270"
+            app:scale_top="1700"
+            app:scale_height="130"/>
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            app:scale_textsize="50"
+            app:scale_width="230"
+            app:scale_left="600"
+            app:scale_top="1700"
+            app:scale_height="130"/>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
